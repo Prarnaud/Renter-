@@ -1,10 +1,106 @@
-#image {
-    width: 100%;
+/* style.css */
+body{
+  background-image: url(img/back2.jpg);
+  background-size: 1440px 2142px;
+  color: green;
+  font-size: px;
+  font-family: Roboto;
 }
-h1	{
-    color: white;
+h1{
+  font-family: Roboto;
+  color: red;
+  font-weight: lighter;
+  font-size: 80px;
 }
 h2 {
-     border: 1px solid green;
-     border: 2px dashed #FF530D;
+  font-family: Roboto;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+h3 {
+  font-family: Roboto;
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+}
+a {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.skyline {
+    background-image: url(img/skylinee.jpg);
+    background-size: 1000px 327px;
+    padding-top: 1px;
+    background-repeat: no-repeat;
+}
+
+.box{
+  border: 5px solid black;
+  text-align: center;
+  margin-top: 52px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 22px;
+}
+
+.containeer {
+    background-color: transparent;
+    max-width: 988px;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+
+hr{
+  border-top: 2px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.street {
+    background-color: transparent;
+    padding-bottom: 38px;
+    padding-right: 188px;
+    padding-left: 188px;
+    padding-top: 184px
+    }
+
+.small-box {
+    border: 5px solid black;
+    margin-top: -97px;
+    margin-left: -117px;
+    margin-right: 103px;
+    margin-bottom: -124px;
+    text-align: center;
+    }
+
+.smalll-box {
+  border: 5px solid black;
+  margin-top: -97px;
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-bottom: -124px;
+  text-align: center;
+
+}
+
+.smallll-box {
+  border: 5px solid black;
+  margin-top: -97px;
+  margin-left: 103px;
+  margin-right: -117px;
+  margin-bottom: -124px;
+  text-align: center;
+
+}
+
+.whitee {
+  background: #fafafa;
 }
